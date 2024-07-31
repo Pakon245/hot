@@ -93,9 +93,9 @@ export default {
       },
 
       onReset () {
-        id.value = ('6604101364')
-        name.value = ('ภากร')
-        surname.value = ('รักใหม่')
+        id.value = null
+        name.value = null
+        surname.value = null
         age.value = null
         accept.value = false
       }
