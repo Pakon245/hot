@@ -8,6 +8,14 @@
     >
       <q-input
         filled
+        v-model="id"
+        label="Your id *"
+        hint="id"
+        lazy-rules
+        :rules="[ val => val && val.length > 0 || 'Please type id']"
+      />
+      <q-input
+        filled
         v-model="name"
         label="Your name *"
         hint="Name and surname"
@@ -59,6 +67,7 @@ export default {
     const accept = ref(false)
 
     return {
+      id,
       name,
       surname,
       age,
@@ -84,8 +93,9 @@ export default {
       },
 
       onReset () {
-        name.value = null
-        surname.value = null
+        id.value = ('6604101364')
+        name.value = ('ภากร')
+        surname.value = ('รักใหม่')
         age.value = null
         accept.value = false
       }
