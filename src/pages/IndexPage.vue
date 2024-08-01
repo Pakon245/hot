@@ -115,9 +115,9 @@ export default {
         name.value = ('ภากร')
         surname.value = ('รักใหม่')
         language.value = ('ภาษาไทย')
-        thai-lang
+
         age.value = null
-        accept.value = false
+
       }
     }
   }
