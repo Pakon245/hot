@@ -115,7 +115,10 @@ export default {
         name.value = ('ภากร')
         surname.value = ('รักใหม่')
         language.value = ('ภาษาไทย')
+<<<<<<< HEAD
 
+=======
+>>>>>>> thai-lang
         age.value = null
 
       }
